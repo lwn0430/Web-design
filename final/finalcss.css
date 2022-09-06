@@ -1,0 +1,68 @@
+@charset 'utf-8';
+/*第一部分*/
+*{margin:0;padding:0;}
+.clearfix:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
+.center{position:relative;margin:0 auto;}
+div#daohang{position:absolute;width:100%;height:140px;background-image:url(images/hTop.jpg);}
+div#logo{	position:relative;top:25px;width:1200px;height:140px;padding:0px;}
+ul{position:absolute;top:-80px;width:1150px;height:80px;}
+ul#attached{position:relative;top:-125px;left:-20px;width:1150px;height:1px;}
+li{position:relative;float:left;margin:32px;list-style:none;}
+li.attached{position:relative;float:left;margin:6px;visibility:hidden;list-style:none;}
+a{text-decoration:none;color:#2C2C2C;font-size:18px;font-weight:bolder;}
+/*第二部分*/
+div#banner{position:relative;top:127px;width:100%;height:500px;background-image:url(images/banner01.jpg);background-position:50%;background-repeat:no-repeat;}
+/*第三部分*/
+div#company{position:relative;top:130px;width:1250px;height:350px;}
+div.tit{width:100%;height:120px;}
+div.point{top:50px;height:24px;background-image:url(images/aboutBg.jpg);}
+div.name{top:-7px;width:30%;height:80px;background-image:url(images/aboutTit.jpg);background-repeat:no-repeat;background-position:50%;}
+div.neirong{width:100%;height:200px;}
+div.neirong img{position:absolute;top:17px;}
+h2{position:absolute;top:15px;left:270px;font-size:18px;font-weight:600;}
+p{margin:0 auto;position:absolute;height:150px;top:55px;left:270px;line-height:28px;color:#878787;}
+p.more{position:absolute;top:138px;left:500px;color:#5F5F5F;font-weight:bolder;}
+p.more:hover{cursor:pointer;color:red;}
+/*第四部分*/
+div#case{position:relative;top:130px;width:100%;height:690px;background-image:url(images/proConBg.jpg);background-repeat:no-repeat;background-position:50%}
+div#fourth{width:1330px;height:160px;}
+div.engword{width:100%;height:160px;}
+h2#gongcheng{position:absolute;left:15px;top:50px;font-size:25px;color:#F4F4F4;}
+h2#enword{position:absolute;left:115px;top:50px;font-size:25px;font-style:italic;color:#8D95A1;}
+p.yellow{position:absolute;top:85px;left:15px;color:#F3BD0F;font-weight:bolder;}
+div.groupone{top:-40px;width:1330px;height:245px;}
+div.groupone img:hover{cursor:pointer;}
+div.grouptwo img:hover{cursor:pointer;}
+img.small{float:left;margin:18px;border:5px solid white;}
+div.groupword{top:200px;width:100%;height:50px;}
+div.groupword a{margin:43px;font-size:16px;font-weight:400;color:white;}
+div.grouptwo{top:-40px;width:1330px;height:245px;}
+img.smalltwo{float:left;margin:18px;border:5px solid white;}
+div.groupwordtwo{width:100%;height:150px;}
+div.groupwordtwo a{margin:43px;font-size:16px;font-weight:400;color:white;}
+div.groupone a:hover{color:#FEC400;}
+div.grouptwo a:hover{color:#FEC400;}
+/*第五部分*/
+div#news{position:relative;top:130px;width:100%;height:300px;}
+div.newss{width:1367px;height:300px;}
+div.leftnew{float:left;width:50%;height:80px;}
+div.rightnew{float:right;width:50%;height:80px;}
+div.leftnew div.point{position:relative;float:right;width:80%;padding:0px;top:40px;height:24px;background-image:url(images/aboutBg.jpg);}div.rightnew div.point{position:relative;float:right;width:80%;padding:0px;top:40px;height:24px;background-image:url(images/aboutBg.jpg);}
+div.leftnew div.aaa{position:relative;float:left;padding:0px;margin:0px;width:30%;height:40px;background-color:white;}
+div.rightnew div.aaa{position:relative;float:left;padding:0px;margin:0px;width:30%;height:40px;background-color:white;}
+div.aaa h2{position:absolute;left:60px;float:right;font-style:italic;font-weight:500;}
+div.aaa h2.big{position:absolute;left:60px;float:right;font-style:italic;font-weight:600;}
+div.aaa h2.notbig{position:absolute;left:122px;float:right;font-style:italic;font-weight:500;}
+div.fifthword{position:absolute;top:70px;left:55px;float:left;width:50%;height:220px;}
+div.fifthword a{display:block;float:left;margin:8px 0;font-size:16px;font-weight:500;color:#676770;} 
+div.fifthword a:before{content:url(images/newLi.png);}
+div.fifthwordcp{position:absolute;top:70px;left:735px;float:left;width:50%;height:220px;}
+div.fifthwordcp a{display:block;float:left;margin:8px 0;font-size:16px;font-weight:500;color:#676770;} 
+div.fifthwordcp a:before{content:url(images/newLi.png);}
+div.fifthword a:hover{color:red;}
+div.fifthwordcp a:hover{color:red;}
+/*第六部分*/
+div.finalonepic{position:relative;top:130px;width:100%;height:40px;background-image:url(images/telBg.jpg);background-repeat:no-repeat;background-position:50%;}
+div.finaltwopic{position:relative;top:130px;width:100%;height:200px;background-image:url(images/ftBg.jpg);background-repeat:no-repeat;background-position:50%;}
+div.finalword{width:1520px;height:17px;}
+div.finalword a{position:absolute;left:130px;top:10px;width:175;height:17px;color:#DFD9C3;font-size:13px;font-weight:600;}
